@@ -2,6 +2,8 @@ package com.awesomeproject;
 
 import android.app.Application;
 import android.content.Context;
+import android.widget.TextView;
+
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
@@ -46,6 +48,8 @@ public class MainApplication extends Application implements ReactApplication {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
     initializeFlipper(this); // Remove this line if you don't want Flipper enabled
+
+      TextView ob;
   }
 
   /**
